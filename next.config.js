@@ -53,6 +53,7 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  plugins: [require('tailwindcss')],
   images: {
     loader: 'akamai',
     path: '',
